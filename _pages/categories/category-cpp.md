@@ -1,11 +1,11 @@
 ---
-title: "C++ 프로그래밍"
+title: "백준(Java)"
 layout: archive
-permalink: categories/cpp
+permalink: /categories/algo/boj
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.Cpp %}
+{% assign posts = site.categories.Algorithm %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
