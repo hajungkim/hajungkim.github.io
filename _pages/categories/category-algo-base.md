@@ -1,5 +1,5 @@
 ---
-title: "개념"
+title: "알고리즘 개념"
 layout: archive
 permalink: /categories/algobase
 author_profile: true

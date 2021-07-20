@@ -1,5 +1,5 @@
 ---
-title: "개념"
+title: "스프링 개념"
 layout: archive
 permalink: /categories/springbase
 author_profile: true
