@@ -34,6 +34,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "AlgoPro" %}
+                        <li><a href="/categories/algopro" class="">프로그래머스(Java) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "AlgoBase" %}
                         <li><a href="/categories/algobase" class="">개념 ({{category[1].size}})</a></li>
                     {% endif %}

@@ -14,5 +14,8 @@ sidebar_main: true
 {% assign posts = site.categories.AlgoBoj %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
 
+{% assign posts = site.categories.AlgoPro %}
+{% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
+
 {% assign posts = site.categories.AlgoBase %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
